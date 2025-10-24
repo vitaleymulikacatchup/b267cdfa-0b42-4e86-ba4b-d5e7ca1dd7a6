@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -9,7 +9,7 @@ import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, Target, Trophy, GraduationCap, Users, MessageCircle } from "lucide-react";
+import { Award, Target, Trophy, GraduationCap, Users, MessageCircle, Mail, Linkedin, Instagram, Twitter } from "lucide-react";
 
 export default function Home() {
   return (
@@ -142,8 +142,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/7207556/pexels-photo-7207556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Coach Sarah Martinez",
               socialLinks: [
-                { icon: "Mail", url: "mailto:sarah@trackfieldpro.com" },
-                { icon: "Linkedin", url: "https://linkedin.com/in/sarahmartinez" }
+                { icon: Mail, url: "mailto:sarah@trackfieldpro.com" },
+                { icon: Linkedin, url: "https://linkedin.com/in/sarahmartinez" }
               ]
             },
             {
@@ -154,8 +154,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/8455354/pexels-photo-8455354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Emma Thompson",
               socialLinks: [
-                { icon: "Mail", url: "mailto:emma@trackfieldpro.com" },
-                { icon: "Instagram", url: "https://instagram.com/emmathompsonrunning" }
+                { icon: Mail, url: "mailto:emma@trackfieldpro.com" },
+                { icon: Instagram, url: "https://instagram.com/emmathompsonrunning" }
               ]
             },
             {
@@ -166,8 +166,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/3764011/pexels-photo-3764011.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Marcus Johnson",
               socialLinks: [
-                { icon: "Mail", url: "mailto:marcus@trackfieldpro.com" },
-                { icon: "Twitter", url: "https://twitter.com/marcusfieldevents" }
+                { icon: Mail, url: "mailto:marcus@trackfieldpro.com" },
+                { icon: Twitter, url: "https://twitter.com/marcusfieldevents" }
               ]
             },
             {
@@ -178,8 +178,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/17484571/pexels-photo-17484571.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Alex Rodriguez",
               socialLinks: [
-                { icon: "Mail", url: "mailto:alex@trackfieldpro.com" },
-                { icon: "Linkedin", url: "https://linkedin.com/in/alexrodriguezcoach" }
+                { icon: Mail, url: "mailto:alex@trackfieldpro.com" },
+                { icon: Linkedin, url: "https://linkedin.com/in/alexrodriguezcoach" }
               ]
             }
           ]}
